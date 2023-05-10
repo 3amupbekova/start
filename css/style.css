@@ -1,0 +1,156 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #070707;
+  width: 100%;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+.container {
+  max-width: 974px;
+  width: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #828282;
+  border-bottom: 1px solid #828282;
+  padding: 33px 0 31px;
+}
+
+.menu a {
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #070707;
+}
+
+/* main */
+.main_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 39px 0 31px;
+}
+
+.main_logo {
+  font-size: 47px;
+  line-height: 59px;
+  font-weight: 700;
+  max-width: 124px;
+}
+
+.main_txt {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.main_btn {
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  font-weight: 700;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 0 5px;
+  border-right: 2px solid #000;
+}
+
+.main_btn:last-child {
+  border-right: 0;
+}
+
+.main_btn__active,
+.main_btn:hover {
+  color: #000;
+}
+
+.main_btns {
+  transform: translate(35%, -100%) rotate(-90deg);
+}
+
+.bg {
+  background: #F6F6F6;
+}
+
+.title {
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* about */
+.about {
+  padding: 120px 0 107px;
+  text-align: center;
+}
+
+.about .title {
+  margin-bottom: 18px;
+}
+
+.about_txt {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 auto 40px;
+}
+
+.about_txt:last-child {
+  margin-bottom: 0;
+}
+
+.about_txt__1 {
+  max-width: 511px;
+}
+
+.about_txt__2 {
+  max-width: 415px;
+}
+
+.about_txt__3 {
+  max-width: 333px;
+}
